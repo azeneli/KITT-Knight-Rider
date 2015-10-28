@@ -1,0 +1,138 @@
+/* CURRENTLY IN: styles/main.css */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/**** Colors
+*
+*	#D1625B
+*	#2A94C8
+*	#EEEEEE
+*
+****/
+
+* {
+	box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+}
+
+html {
+	font-family: Arial, 'sans-serif';
+	font-size: 14px;
+}
+
+/*********   Kitt Head  *********/
+
+
+.kitt {
+	width: 55%;
+	height: 550px;
+	margin: 0 auto;
+	background-color: #000;
+}
+
+.kitt__head {
+	width: 100%;
+	height: 80px;
+}
+
+.kitt-title-border {
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+.kitt__head-title-color {
+	font-size: 3rem;
+	color: #fff;
+	text-align: center;
+	padding: 1.5rem 0;
+}
+
+/*********   Kitt Body  *********/
+
+
+.kitt__body {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+
+.kitt__body-right {
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: #ccc;
+}
+
+.kitt__body-mid {
+	width: 60%;
+	height: 100%;
+	float: left;
+	background-color: yellow;
+}
+
+.kitt__body-left {
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: orange;
+}
+
+/*********   Kitt Controls  *********/
+
+.kitt__controls {
+
+}
+
+.kitt__controls-first {
+
+}
+
+.kitt__controls-second {
+
+}
+
+.kitt__controls-third {
+
+}	
+
+.kitt__controls-fourth {
+
+}
+
+.kitt__controls-fifth {
+
+}
+
+.kitt__controls-sixth {
+	
+}
+
+
+
+
