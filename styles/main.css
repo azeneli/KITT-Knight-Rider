@@ -106,31 +106,66 @@ html {
 /*********   Kitt Controls  *********/
 
 .kitt__controls {
+	padding: 2rem 0;
+}
 
+.kitt__controls-box {
+	border-radius: 40%/50%;
+	box-shadow: 0px 0px ;
 }
 
 .kitt__controls-first {
-
+	width: 70%;
+	height: 65px;
+	background-color: #cccc00;
+	text-align: center;
+	padding: 1.8rem 0;
+	margin: 0 auto;
 }
 
 .kitt__controls-second {
-
+	width: 70%;
+	height: 65px;
+	background-color: #cccc00;
+	text-align: center;
+	padding: 1.8rem 0;
+	margin: 15% auto;
 }
 
 .kitt__controls-third {
-
+	width: 70%;
+	height: 65px;
+	background-color: red;
+	text-align: center;
+	padding: 1.8rem 0;
+	margin: 15% auto;
 }	
 
 .kitt__controls-fourth {
-
+	width: 70%;
+	height: 65px;
+	background-color: red;
+	text-align: center;
+	padding: 1.8rem 0;
+	margin: 15% auto;
 }
 
 .kitt__controls-fifth {
-
+	width: 70%;
+	height: 65px;
+	background-color: red;
+	text-align: center;
+	padding: 1.8rem 0;
+	margin: 15% auto;
 }
 
 .kitt__controls-sixth {
-	
+	width: 70%;
+	height: 65px;
+	background-color: red;
+	text-align: center;
+	padding: 1.8rem 0;
+	margin: 15% auto;	
 }
 
 
