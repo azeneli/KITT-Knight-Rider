@@ -27,14 +27,6 @@
     *zoom: 1;
 }
 
-/**** Colors
-*
-*	#D1625B
-*	#2A94C8
-*	#EEEEEE
-*
-****/
-
 * {
 	box-sizing: border-box;
 		-webkit-box-sizing: border-box;
@@ -197,6 +189,36 @@ html {
 .kitt__controls-glowSixth {
 	box-shadow: 0 0 20px #FF0000;
 }
+
+/*********   Kitt Middle Body Section  *********/
+
+.kitt__body-mid__LowerSection-Button1 {
+	width: 50%;
+	height: 100px;
+	background-color: #FF0000; 
+}
+
+.kitt__body-mid__LowerSection-Button2 {
+
+}
+
+.kitt__body-mid__LowerSection-Button3 {
+
+}
+
+p{
+	font-size: 2.8rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
