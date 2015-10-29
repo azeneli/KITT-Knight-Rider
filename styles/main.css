@@ -62,8 +62,7 @@ html {
 }
 
 .kitt-title-border {
-	border-bottom: 1px solid #ccc;
-	box-shadow: 0px 0px 10px #ccc;
+	border-bottom: 5px outset rgba(204,204,204,0.9);
 }
 
 .kitt__head-title-color {
@@ -79,14 +78,14 @@ html {
 .kitt__body {
 	width: 100%;
 	height: 100%;
-	background-color: red;
+	background-color: #000;
 }
 
 .kitt__body-right {
 	width: 20%;
 	height: 100%;
 	float: left;
-	background-color: #ccc;
+	background-color: #191900;
 }
 
 .kitt__body-mid {
@@ -100,7 +99,7 @@ html {
 	width: 20%;
 	height: 100%;
 	float: left;
-	background-color: orange;
+	background-color: #000;
 }
 
 /*********   Kitt Controls  *********/
@@ -114,10 +113,14 @@ html {
 	box-shadow: 0px 0px ;
 }
 
+.kitt__controls-border {
+	border: 3px solid #000;
+}
+
 .kitt__controls-first {
 	width: 70%;
 	height: 65px;
-	background-color: #cccc00;
+	background-color: #ffff00;
 	text-align: center;
 	padding: 1.8rem 0;
 	margin: 0 auto;
@@ -126,7 +129,7 @@ html {
 .kitt__controls-second {
 	width: 70%;
 	height: 65px;
-	background-color: #cccc00;
+	background-color: #ffff00;
 	text-align: center;
 	padding: 1.8rem 0;
 	margin: 15% auto;
@@ -168,6 +171,29 @@ html {
 	margin: 15% auto;	
 }
 
+.kitt__controls-glowFirst {
+	box-shadow: 0 0 20px #ffff00;
+}
+
+.kitt__controls-glowSecond {
+	box-shadow: 0 0 20px #ffff00;
+}
+
+.kitt__controls-glowThird {
+	box-shadow: 0 0 20px #FF0000;
+}
+
+.kitt__controls-glowFourth {
+	box-shadow: 0 0 20px #FF0000;
+}
+
+.kitt__controls-glowFifth {
+	box-shadow: 0 0 20px #FF0000;
+}
+
+.kitt__controls-glowSixth {
+	box-shadow: 0 0 20px #FF0000;
+}
 
 
 
