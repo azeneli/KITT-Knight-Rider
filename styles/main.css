@@ -38,8 +38,25 @@ html {
 	font-size: 14px;
 }
 
-/*********   Kitt Head  *********/
+/*********  Common CSS Properties *********/
 
+.kitt__controls-glowBlue {
+	box-shadow: 0px 0px 20px #0000e5;
+}
+
+.kitt__controls-GlowFirstSet {
+	box-shadow: 0 0 20px #ffff00;
+}
+
+.kitt__controls-glow {
+	box-shadow: 0 0 20px #FF0000;
+}
+
+.kitt__controls-border {
+	border: 3px solid #000;
+}
+
+/*********   Kitt Head  *********/
 
 .kitt {
 	width: 55%;
@@ -66,7 +83,6 @@ html {
 
 /*********   Kitt Body  *********/
 
-
 .kitt__body {
 	width: 100%;
 	height: 100%;
@@ -77,24 +93,22 @@ html {
 	width: 20%;
 	height: 100%;
 	float: left;
-	background-color: #191900;
-	box-shadow: 0 0 20px #ccc;
 }
 
 .kitt__body-mid {
 	width: 60%;
 	height: 100%;
 	float: left;
-	background-color: #ccc;
-	box-shadow: 0 0 20px #ccc;
 }
 
 .kitt__body-left {
 	width: 20%;
 	height: 100%;
 	float: left;
-	background-color: #000;
-	box-shadow: 0 0 20px #ccc;
+}
+
+.kitt__body-shadow {
+	box-shadow: 0 0 20px #ccc;	
 }
 
 /*********   Kitt Controls  *********/
@@ -105,11 +119,6 @@ html {
 
 .kitt__controls-box {
 	border-radius: 40%/50%;
-	box-shadow: 0px 0px ;
-}
-
-.kitt__controls-border {
-	border: 3px solid #000;
 }
 
 .kitt__controls-first {
@@ -166,58 +175,47 @@ html {
 	margin: 15% auto;	
 }
 
-.kitt__controls-glowFirst {
-	box-shadow: 0 0 20px #ffff00;
-}
-
-.kitt__controls-glowSecond {
-	box-shadow: 0 0 20px #ffff00;
-}
-
-.kitt__controls-glowThird {
-	box-shadow: 0 0 20px #FF0000;
-}
-
-.kitt__controls-glowFourth {
-	box-shadow: 0 0 20px #FF0000;
-}
-
-.kitt__controls-glowFifth {
-	box-shadow: 0 0 20px #FF0000;
-}
-
-.kitt__controls-glowSixth {
-	box-shadow: 0 0 20px #FF0000;
-}
 
 /*********   Kitt Middle Body Section  *********/
-
-.kitt__body-mid__LowerSection-Button1 {
-	width: 50%;
-	height: 80px;
-	background-color: #FF0000; 
-}
-
-.kitt__body-mid__LowerSection-Button2 {
-	width: 50%;
-	height: 80px;
-	background-color: #ffff00; 
-}
-
-.kitt__body-mid__LowerSection-Button3 {
-	width: 50%;
-	height: 80px;
-	background-color: #0000e5; 
-}
 
 .kitt-content{
 	font-size: 3rem;
 }
 
 .kitt-content-center {
-	margin: 0 auto;
+	margin: 0.8rem auto;
 	text-align: center;
 }
+
+/*********   Kitt Middle Upper Body Animation  *********/
+
+
+
+
+/*********   Kitt Middle Body Lower Section  *********/
+
+.kitt__body-mid__LowerSection {
+	margin: 63% auto;
+}
+
+.kitt__body-mid__LowerSection-Button1 {
+	width: 50%;
+	height: 84px;
+	background-color: #FF0000; 
+}
+
+.kitt__body-mid__LowerSection-Button2 {
+	width: 50%;
+	height: 84px;
+	background-color: #ffff00; 	
+}
+
+.kitt__body-mid__LowerSection-Button3 {
+	width: 50%;
+	height: 84px;
+	background-color: #0000e5; 
+}
+
 
 
 
