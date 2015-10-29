@@ -85,7 +85,7 @@ html {
 	width: 60%;
 	height: 100%;
 	float: left;
-	background-color: yellow;
+	background-color: #ccc;
 	box-shadow: 0 0 20px #ccc;
 }
 
@@ -194,23 +194,30 @@ html {
 
 .kitt__body-mid__LowerSection-Button1 {
 	width: 50%;
-	height: 100px;
+	height: 80px;
 	background-color: #FF0000; 
 }
 
 .kitt__body-mid__LowerSection-Button2 {
-
+	width: 50%;
+	height: 80px;
+	background-color: #ffff00; 
 }
 
 .kitt__body-mid__LowerSection-Button3 {
-
+	width: 50%;
+	height: 80px;
+	background-color: #0000e5; 
 }
 
-p{
-	font-size: 2.8rem;
+.kitt-content{
+	font-size: 3rem;
 }
 
-
+.kitt-content-center {
+	margin: 0 auto;
+	text-align: center;
+}
 
 
 
