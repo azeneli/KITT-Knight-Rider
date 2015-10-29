@@ -56,6 +56,14 @@ html {
 	border: 3px solid #000;
 }
 
+.kitt__controls-box {
+	border-radius: 40%/50%;
+}
+
+.kitt__controls-mid {
+	border-radius: 4%;
+}
+
 /*********   Kitt Head  *********/
 
 .kitt {
@@ -115,10 +123,6 @@ html {
 
 .kitt__controls {
 	padding: 2rem 0;
-}
-
-.kitt__controls-box {
-	border-radius: 40%/50%;
 }
 
 .kitt__controls-first {
@@ -192,6 +196,41 @@ html {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*********   Kitt Middle Body Lower Section  *********/
 
 .kitt__body-mid__LowerSection {
@@ -216,6 +255,9 @@ html {
 	background-color: #0000e5; 
 }
 
+.kitt-content-centering {
+	padding: 1.3rem 0;
+}
 
 
 
