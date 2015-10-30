@@ -12,7 +12,7 @@
 .cf:before,
 .cf:after {
     content: " "; /* 1 */
-    display: table; /* 2 */
+    display: table; /* 2 */	
 }
 
 .cf:after {
@@ -146,7 +146,7 @@ html {
 .kitt__controls-third {
 	width: 70%;
 	height: 65px;
-	background-color: red;
+	background-color: #FF0000;
 	text-align: center;
 	padding: 1.8rem 0;
 	margin: 15% auto;
@@ -155,7 +155,7 @@ html {
 .kitt__controls-fourth {
 	width: 70%;
 	height: 65px;
-	background-color: red;
+	background-color: #FF0000;
 	text-align: center;
 	padding: 1.8rem 0;
 	margin: 15% auto;
@@ -164,7 +164,7 @@ html {
 .kitt__controls-fifth {
 	width: 70%;
 	height: 65px;
-	background-color: red;
+	background-color: #FF0000;
 	text-align: center;
 	padding: 1.8rem 0;
 	margin: 15% auto;
@@ -173,7 +173,7 @@ html {
 .kitt__controls-sixth {
 	width: 70%;
 	height: 65px;
-	background-color: red;
+	background-color: #FF0000;
 	text-align: center;
 	padding: 1.8rem 0;
 	margin: 15% auto;	
@@ -183,7 +183,7 @@ html {
 /*********   Kitt Middle Body Section  *********/
 
 .kitt-content{
-	font-size: 3rem;
+	font-size: 2.7rem;
 }
 
 .kitt-content-center {
@@ -193,16 +193,73 @@ html {
 
 /*********   Kitt Middle Upper Body Animation  *********/
 
+.kitt__body-mid__UpperSection {
+	width: 60%;
+	height: 50%;
+/*	background-color: white;*/
+	margin: 1% auto;
+}
+
+/*.kitt__light-left {
+	position: absolute;
+		top: 4%;
+		left: 5%;
+}*/
+
+/*.test {
+	width: 30px;
+	height: 150px;
+	border: 1px solid black;
+}*/
+
+.kitt__light-one, 
+.kitt__light-two, 
+.kitt__light-three, 
+.kitt__light-four, 
+.kitt__light-five,
+.kitt__light-six,
+.kitt__light-seven,
+.kitt__light-eigth,
+.kitt__light-nine,
+.kitt__light-ten {
+	width: 45%;
+	height: 10%;
+	margin: 0 auto;
+	box-shadow: 0 0 30px #FF0000
+	, inset 0 0 5px rgba(255,255,255, 0.5);
+	border-radius: 5px;
+}
+
+.kitt__light-animation {
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;	
+}
 
 
 
+.kitt__light-container {
+	width: 100%;
+	height: 100%;
+}
 
+.kitt__light-left {
+	width: 33.33%;
+	height: 100%;
+	float: left;
+}
 
+.kitt__light-mid {
+	width: 33.33%;
+	height: 100%;
+	float: left;
+}
 
-
-
-
-
+.kitt__light-right {
+	width: 33.33%;
+	height: 100%;
+	float: left;
+}
 
 
 
@@ -234,29 +291,29 @@ html {
 /*********   Kitt Middle Body Lower Section  *********/
 
 .kitt__body-mid__LowerSection {
-	margin: 63% auto;
+	margin: 1% auto;
 }
 
 .kitt__body-mid__LowerSection-Button1 {
 	width: 50%;
-	height: 84px;
+	height: 77px;
 	background-color: #FF0000; 
 }
 
 .kitt__body-mid__LowerSection-Button2 {
 	width: 50%;
-	height: 84px;
+	height: 77px;
 	background-color: #ffff00; 	
 }
 
 .kitt__body-mid__LowerSection-Button3 {
 	width: 50%;
-	height: 84px;
+	height: 77px;
 	background-color: #0000e5; 
 }
 
 .kitt-content-centering {
-	padding: 1.3rem 0;
+	padding: 1rem 0;
 }
 
 
