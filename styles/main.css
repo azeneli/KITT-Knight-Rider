@@ -230,7 +230,7 @@ html {
 .kitt__light-animation {
     animation-duration: 0.7s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;	
+    animation-direction: alternate-reverse;	
 }
 
 .kitt__light-one {
@@ -290,137 +290,154 @@ html {
 
 @keyframes two {
 	0%{
-  		opacity:0.2;
-  	}
+		opacity:0;
+	}
   	10%{
-  		opacity:1;
-  	}
-  	20%  {
   		opacity:0.2;
   	}
-  	100% {
-  		opacity:0;
-  	}
+ 	20%{
+ 		opacity:1;
+ 	}
+    30%{
+    	opacity:0.2;
+    }
+    100%{
+    	opacity:0;
+    }
 }
 
 @keyframes three {
 	0%{
-  		opacity:0.2;
-  	}
-  	10%{
-  		opacity:1;
-  	}
-  	20%  {
-  		opacity:0.2;
-  	}
-  100% {
-  		opacity:0;
-  	}
+		opacity:0;
+	}
+    20%{
+    	opacity:0.2;
+    }
+    30%{
+    	opacity:1;
+    }
+    40%{
+    	opacity:0.2;
+    }
+    100%{
+    	opacity:0;
+    }
 }
 
 @keyframes four {
 	0%{
-  		opacity:0.2;
-  	}
-  	10%{
-  		opacity:1;
-  	}
-  	20%  {
-  		opacity:0.2;
-  	}
-  100% {
-  		opacity:0;
-  	}
+		opacity:0;
+	}
+    30%{
+    	opacity:0.2;
+    }
+    40%{
+    	opacity:1;
+    }
+    50%{
+    	opacity:0.2;
+    }
+    100%{
+    	opacity:0;
+    }
 }
 
 @keyframes five {
 	0%{
-  		opacity:0.2;
-  	}
-  	10%{
-  		opacity:1;
-  	}
-  	20%  {
-  		opacity:0.2;
-  	}
-  100% {
-  		opacity:0;
-  	}
+		opacity:0;
+	}
+    40%{
+    	opacity:0.2;
+    }
+    50%{
+    	opacity:1;
+    }
+    60%{
+    	opacity:0.2;
+    }
+    100%{
+    	opacity:0;
+    }
 }
 
 @keyframes six {
-	0%{
-  		opacity:0.2;
-  	}
-  	10%{
-  		opacity:1;
-  	}
-  	20%  {
-  		opacity:0.2;
-  	}
-  100% {
-  		opacity:0;
-  	}
+    0%{
+    	opacity:0;
+    }
+    50%{
+    	opacity:0.2;
+    }
+    60%{
+    	opacity:1;
+    }
+    70%{
+    	opacity:0.2;
+    }
+    100%{
+    	opacity:0;
+    }
 }
 
 @keyframes seven {
-	0%{
+  	0%{
+  		opacity:0;
+  	}
+  	60%{
   		opacity:0.2;
   	}
-  	10%{
+  	70%{
   		opacity:1;
   	}
-  	20%  {
+  	80%{
   		opacity:0.2;
   	}
-  100% {
+  	100%{
   		opacity:0;
   	}
 }
 
 @keyframes eight {
-	0%{
+  	0%{
+  		opacity:0;
+  	}
+  	70%{
   		opacity:0.2;
   	}
-  	10%{
+  	80%{
   		opacity:1;
   	}
-  	20%  {
+  	90%{
   		opacity:0.2;
   	}
-  100% {
+  	100%{
   		opacity:0;
   	}
 }
 
 @keyframes nine {
-	0%{
+  	0%{
+  		opacity:0;
+  	}
+  	80%{
   		opacity:0.2;
   	}
-  	10%{
+  	90%{
   		opacity:1;
   	}
-  	20%  {
+  	100%{
   		opacity:0.2;
-  	}
-  100% {
-  		opacity:0;
   	}
 }
 
 @keyframes ten {
-	0%{
-  		opacity:0.2;
-  	}
-  	10%{
-  		opacity:1;
-  		
-  	}
-  	20%  {
-  		opacity:0.2;
-  	}
-  100% {
+  	0%{
   		opacity:0;
+  	}
+  	90%{
+  		opacity:0.2;
+  	}
+  	100%{
+  		opacity:1;
   	}
 }
 
@@ -446,33 +463,6 @@ html {
 	height: 100%;
 	float: left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*********   Kitt Middle Body Lower Section  *********/
 
